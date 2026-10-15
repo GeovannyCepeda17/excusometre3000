@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0ff;
+    color: #34304f;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Capcalera------------------------------------------------------------------------------------- */
+
+header {
+    background-color: #dcd6ff;
+    color: #35305c;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+    margin: 5px;
+}
+
+/* Menu de navegacio-------------------------------------------------------------------------------- */
+
+nav {
+    background-color: #7772c9;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e4ddff;
+    text-decoration: underline;
+}
+
+/* Excuses----------------------------------------------------------------------------------------------- */
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #6258b5;
+    border-bottom: 2px solid #dcd6ff;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    color: #514a91;
+}
+
+/* Explicacó excuses ------------------------------------------------------------------------------------------- */
+
+.fitxa {
+    background-color: #f0edff;
+    border-left: 5px solid #9388e8;
+    padding: 15px;
+    margin: 18px 0;
+    border-radius: 8px;
+}
+
+.fitxa h3 {
+    margin-top: 0;
+    color: #6258b5;
+}
+
+.fitxa p {
+    margin: 8px 0;
+}
+
+.fitxa b {
+    color: #514a91;
+}
+
+/* Listes ----------------------------------------------------------------------------------------------- */
+
+section ul,
+section ol {
+    padding-left: 25px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+/* Peu de pag --------------------------------------------------------------------------------------------------- */
+
+footer {
+    background-color: #dcd6ff;
+    color: #35305c;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+footer a {
+    color: #514a91;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* media ------------------------------------------------------------------ */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
